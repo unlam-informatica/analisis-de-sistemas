@@ -2,7 +2,7 @@
 layout: page
 title: Ingeniería de requisitos
 sidebar_link: true
-sidebar_sort_order: 3
+sidebar_sort_order: 4
 ---
 
 ## Definición
@@ -223,7 +223,7 @@ A continuación describiremos el ciclo de educción y las siguientes técnica
 
 
 
-###Requerimiento versus Requisito
+### Requerimiento versus Requisito
 En la bibliografía ambos términos se suelen utilizar en forma indistinta como traducción de la palabra inglesa “requirement”. En el siguiente texto vamos a utilizar:
 
 * **Requerimiento** para referirnos a los pedidos que recibimos de los clientes. Entendiendo como cliente a aquel que solicita y define el sistema de software. _(Requerimientos del cliente según Sommerville)_  
@@ -232,7 +232,7 @@ Ej.: Registrar los clientes del negocio.
 * **Requisito** para identificar las especificaciones precisas, no ambiguas, consistentes y completas del comportamiento del sistema, incluyendo funciones, interfaces, rendimiento y limitaciones. Esto es lo que el equipo de desarrollo se compromete a cumplir para construir el sistema de software que necesita el cliente para satisfacer sus requerimientos. _(Requerimientos del sistema según Sommerville)_  
 Ej.: El sistema debe registrar los clientes con los siguientes datos obligatorios: DNI (que servirá como clave de identificación única), nombres, apellidos, correo electrónico, teléfono, dirección. Si el DNI ya existe, el sistema debe mostrar los datos actualmente registrados con ese número.
 
-###Definicion de Requisito
+### Definicion de Requisito
 _Según Sommerville_:  
 Los requisitos para un sistema son la descripción de los servicios proporcionados por el sistema y sus restricciones operativas. El término requisito no se utiliza de forma contante en la industria de software. En algunos casos, un requisito es simplemente una declaración abstracta de alto nivel de un servicio que debe proporcionar el sistema o una restricción de éste. En el otro extremo, es una definición detallada y formal de una función del sistema.
 
@@ -278,7 +278,7 @@ Siempre que sea posible, se deberán escribir de manera cuantitativa los requer
 
 En la práctica, en el documento de requerimientos, resulta difícil separar los requerimientos funcionales de los no funcionales. Si los requerimientos no funcionales se expresan por separado de los requerimientos funcionales, las relaciones entre ambos serían difíciles de entender. No obstante, se deben destacar de manera explícita los requerimientos que están claramente relacionados con las propiedades emergentes del sistema, como el rendimiento o la fiabilidad. Esto se logra al ponerlos en una sección separada del documento de requerimientos o al distinguirlos, en alguna forma, de otros requerimientos del sistema.
 
-###Propiedades y Atributos de los requisitos
+### Propiedades y Atributos de los requisitos
 Las principales propiedades o cualidades que deben presentar los requisitos son:
 
 *  Correctos: los requisitos deben ser realmente necesarios y cumplir con el propósito del sistema.

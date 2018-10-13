@@ -1,6 +1,11 @@
-##Modelo de dominio
+---
+layout: page
+title: Modelo de dominio
+sidebar_link: true
+sidebar_sort_order: 2
+---
 
-###Estrategias para indentificar clases conceptuales
+### Estrategias para indentificar clases conceptuales
 Para identificar clases conceptuales existen dos métodos:
 
 1. Distinguir de un texto determinado los sustantivos y los verbos. Los sustantivos son posibles clases candidatas o atributos de las mismas. Los verbos son posibles responsabilidades.  
