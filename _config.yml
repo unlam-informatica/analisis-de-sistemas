@@ -8,19 +8,25 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Permalinks
+permalink:        pretty
+
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Análisis de sistemas
-email: marcosarios@gmail.com
-description: Apuntes de análisis de sistemas
-baseurl: "/home" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+title: 'Análisis de sistemas'
+# email: marcosarios@gmail.com
+description: 'Apuntes y notas para la materia Análisis de sistemas de la UNLaM.'
+# baseurl: "/" # the subpath of your site, e.g. /blog
+# url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
-paginate: 5
 
 # Build settings
 markdown: kramdown
@@ -28,7 +34,9 @@ markdown: kramdown
 remote_theme: fongandrew/hydeout
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
+sidebar_home_link:  true
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
